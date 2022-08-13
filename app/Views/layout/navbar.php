@@ -15,22 +15,22 @@
                     <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                 </button>
 
-                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-400">
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-sm  lg:min-h-0 rounded-lg max-w-[200px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-400">
                     <ul class="block lg:flex">
-                        <li class="group">
-                            <a href="<?= base_url(); ?>/" class="text-base text-dark py-2 mx-3 flex text-center dark:text-white <?= base_url(uri_string()) == base_url() ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Home</a>
+                        <li class="group flex justify-center">
+                            <a href="<?= base_url(); ?>/" class="text-base text-dark py-2 mx-1 lg:mx-5 flex text-center dark:text-white <?= base_url(uri_string()) == base_url() ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Home</a>
                         </li>
-                        <li class="group">
-                            <a href="<?= base_url(); ?>/about" class="text-base text-dark py-2 mx-3 flex dark:text-white <?= base_url(uri_string()) == base_url('about') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">About</a>
+                        <li class="group flex justify-center">
+                            <a href="<?= base_url(); ?>/about" class="text-base text-dark py-2 lg:mx-5 mx-1 flex dark:text-white <?= base_url(uri_string()) == base_url('about') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">About</a>
                         </li>
-                        <li class="group">
-                            <a href="<?= base_url(); ?>/project" class="text-base text-dark py-2 mx-3 flex dark:text-white <?= base_url(uri_string()) == base_url('project') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Project</a>
+                        <li class="group flex justify-center">
+                            <a href="<?= base_url(); ?>/project" class="text-base text-dark py-2 mx-1 lg:mx-5 flex dark:text-white <?= base_url(uri_string()) == base_url('project') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Project</a>
                         </li>
-                        <li class="group">
-                            <a href="<?= base_url(); ?>/gallery" class="text-base text-dark py-2 mx-3 flex dark:text-white <?= base_url(uri_string()) == base_url('gallery') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Gallery</a>
+                        <li class="group flex justify-center">
+                            <a href="<?= base_url(); ?>/gallery" class="text-base text-dark py-2 mx-1 lg:mx-5 flex dark:text-white <?= base_url(uri_string()) == base_url('gallery') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Gallery</a>
                         </li>
-                        <li class="group">
-                            <a href="<?= base_url(); ?>/contact" class="text-base text-dark py-2 mx-3 flex dark:text-white <?= base_url(uri_string()) == base_url('contact') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Contact</a>
+                        <li class="group flex justify-center">
+                            <a href="<?= base_url(); ?>/contact" class="text-base text-dark py-2 mx-1  lg:mx-5 flex dark:text-white <?= base_url(uri_string()) == base_url('contact') ? 'bg-primary rounded-full group-hover:text-white px-7 dark:group-hover:text-dark' : 'group-hover:text-primary'; ?>">Contact</a>
                         </li>
                     </ul>
                 </nav>
